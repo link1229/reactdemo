@@ -1,0 +1,32 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+body{
+    background: #b7bcf7ce;
+}
+div,h1,h2,h3,h4,h5,ul,li,p,a{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.clear::after{
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+    content: "";
+}
+.wrap{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.red{
+    color: red;
+}
